@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root Element */
+
+:root{
+    --main-font:"Poppins", sans-serif;
+    --secondary-color: #6d6d6d;
+    --secondary-grey: #b4afaf ;
+    --tertiary-color: #f0ecec;
+    --blue-color:#266FEF;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.box1{
+    margin: 50px auto;
+    width: 35vw;
+    height: 80vh;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: var(--secondary-grey) 0px 0px 10px;
+}
+
+.box1-img{
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+
+}
+.promotion{
+    position: absolute;
+    background-color: var(--secondary-color);
+    font-family: var(--main-font);
+    width: 7vw;
+    top: 15px;
+    left: 15px;
+    text-align: center;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.offer{
+    position: absolute;
+    background-color: var(--blue-color);
+    font-family: var(--main-font);
+    width: 14vw;
+    bottom: 15px;
+    left: 0;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.timer{
+    position: absolute;
+    background-color: var(--tertiary-color);
+    font-family: var(--main-font);
+    width: 6vw;
+    right: 15px;
+    bottom: 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+    color:  var(--secondary-color);
+    
+}
+.featured-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.box-desc{
+    padding: 2vh 0;
+    border-bottom: 1px solid var(--secondary-grey);
+
+}
+.box-desc h2{
+    font-family: var(--main-font);
+    padding: 1vh 0;
+    font-weight: 500;
+}
+.box-desc p{
+    font-family: var(--main-font);
+    color: var(--secondary-color);
+
+}
+
+.short-desc{
+    margin: 2.5vh auto;
+    height: 4vh;
+    width: 100%;
+    position: relative;
+}
+.short-desc .logo{
+    height: 5vh;
+    width: 6vw;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 5px;
+    top: -0.6vh;
+}
+.desc-para{
+    width: 60%;
+    position: absolute;
+    margin: 0 8vw;
+    font-size: 13.5px;
+    font-family: var(--main-font);
+    top: -1.5vh;
+    color: var(--secondary-color);
+}
+
+/* 2 . Second Practice Set START Form here*/
+
+
+.box2{
+    margin: 50px auto;
+    width: 60vw;
+    height: 65vh;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: var(--secondary-grey) 0px 0px 10px;
+    overflow: hidden;
+}
+.ft-img-box2{
+    width: 100%;
+    height: 65vh;
+    position: absolute;   
+}
+.box2-img{
+    position: relative;
+    width: 60vw;
+    height: 50vh;
+    top: 0;
+}
+.overlay2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    opacity: 0.4;
+    background-color: black;
+    overflow: hidden;
+
+}
+.box2-img h1{
+    text-align: center;
+}
+.center{
+    text-align: center;
+    padding: 0 15px;
+    font-family: var(--main-font);
+}
+.travel-featured-img{
+    width: 60vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.travel-heading{
+    position: absolute;
+    text-align: center;
+    bottom: 70px;
+    left: 10%;
+    font-weight: 600;
+    font-family: var(--main-font);
+    color: var(--tertiary-color);
+
+}
+.travel-desc{
+    position: absolute;
+    bottom: 0px;
+    color: var(--tertiary-color);
+}
+.btn1{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    bottom: -50px;
+    right: 45%;
+    font-weight: 500;
+    color: rgb(0, 0, 0) ;
+    background-color: rgb(255, 255, 255);
+    font-family:var(--tertiary-color);
+    font-size: 15px;
+    font-family: var(--main-font);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* 3 . Third Practice Set START Form here*/
+
+
+.box3{
+    margin: 150px auto;
+    width: 70vw;
+    height: 40vh;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: var(--secondary-grey) 0px 0px 10px;
+    overflow: hidden;
+}
+.search-bg-img{
+    width: 70vw;
+    height: 40vh;
+    object-fit: cover;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: var(--secondary-grey) 0px 0px 10px;
+    background-color: black;
+    opacity: 0.5;
+    overflow: hidden;
+}
+.search-desc{
+    position: absolute;
+    bottom: 100px;
+    left: 205px;
+    font-size: 22px;
+    font-family: var(--main-font);
+    color: var(--tertiary-color);
+}
+.zomatto_logo{
+    width: 250px;
+    position: absolute;
+    bottom: 150px;
+    left: 335px;
+}
+.searchBox{
+    width: 70%;
+    height: 15%;
+    position: absolute;
+    bottom: 50px;
+    left: 170px;
+}
+.search-input{
+    height: 100%;
+    width: 90%;
+    padding: 0 0 0 200px;
+    font-size: 15px;
+    font-family: var(--main-font);
+    color: #282828;
+    border-radius: 5px;
+    border: none;
+
+}
+.search-icon {
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    bottom: 8px;
+    left: 165px;
+    opacity: 0.7;
+    /* border: 1px solid red; */
+}
+.search-input:focus{
+    outline: none;
+    font-family: var(--main-font);
+}
+
+.pin-location{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    bottom: 6px;
+    left: 5px;
+}
+#select-location{
+    height: 30px;
+    width: 130px;
+    position: absolute;
+    bottom: 4px;
+    left: 30px;
+    border: none;
+    font-size: 16px;
+    font-family: var(--main-font);
+}
+
+#select-location:focus{
+    border: none;
+}
+/* 4 . Third Practice Set START Form here*/
+
+.box4{
+    margin: 100px auto;
+    width: 60vw;
+    height: 55vh;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: var(--secondary-grey) 0px 0px 10px;
+    overflow: hidden;
+}
+.box4-f-img{
+    width: 60vw;
+    height: 30vh;
+    border-radius: 20px;
+    position: relative;
+    border-radius: 0 10px 0px 0;
+    overflow: hidden;
+}
+
+.profile-photo{
+    position: absolute;
+    bottom: 100px;
+    left: 60px;
+    height: 100px;
+    width: 100px;
+    border-radius:50% ;
+    border: 4px solid var(--tertiary-color);
+}
+.user{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    font-family: var(--main-font);
+    color: rgba(0, 0, 0, 0.883);
+    font-weight: 500;
+}
+.user-desc{
+    color: var(--secondary-color);
+}
